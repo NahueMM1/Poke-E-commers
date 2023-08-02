@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
 //fin Fonts
 
+body {
+    background-image: url(./img/background.jpg);
+    
+}
 
 .h1Welcome {
     font-size: 3rem;
@@ -15,17 +19,26 @@
 .component {
     display: flex;
     justify-content:end;
-    margin-right: 15px;
+    max-width: 100%;
+    background-color: #d00000;
 }
 
 .component button {
-    margin-right: 23px;
+    margin: 1.5rem;
     font-size: 1.5rem;
     border-style: none;
     background: none;
 }
 
+.ShoppingCart {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
 .ShoppingCart img {
-    max-width: 35px;
+    max-width: 3rem;
+    max-height: 3rem;
     margin-left: 18px;
+    
 }
